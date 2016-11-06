@@ -1,0 +1,444 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.topLead {
+    text-shadow: 2px 2px 4px #000000 rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.intro-header {
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('http://www.dtelepathy.com/blog/wp-content/uploads/2015/06/Technique-for-Faster-Web-Development.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 26px;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+/*******************************************/
+.icon-welcome-down {
+    font-size: 7em;
+    color: rgba(255,255,255,0.6);
+}
+
+.scroll-down-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 46%;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+/*******************************************/
+
+footer {
+    padding: 50px 0;
+    background-color: #222222;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+#my-picture {
+    margin: auto;
+}
+
+/*******************************************/
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.main-nav li a {
+    font-size: 16px;
+}
+
+.main-nav li a.active {
+    color: #5a0060 !important;
+}
+
+/*******************************************/
+
+#about-me {
+    background-image: url('images/background_presentation.jpg');
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 19px;
+    margin: 10px 100px;
+    text-align: justify;
+}
+
+.main-title-section {
+    margin-bottom: 80px;
+}
+
+.skill {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #222222;
+    color: white;
+}
+
+.skill .item {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.skill .item .icon-holder {
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+
+.skill .item .icon-holder .fa {
+    font-size: 24px;
+    color: #e5734f;
+}
+
+.skill .item .content {
+    padding-left: 60px;
+}
+
+.skill .item .content .sub-title {
+    margin-top: 0;
+    color: #e5734f;
+    font-size: 18px;
+}
+
+.skill p {
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+
+/**********************************
+/**** Portfolio project part ******
+/**********************************/
+
+.waypoint-js {
+    opacity: 0;
+    animation-duration: 1.2s;
+    -webkit-animation-duration: 1.2s;
+}
+
+.btn-see-project {
+    font-size: 15px;
+}
+
+.techno-project {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.img-project {
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.label-apache2 {
+    background-color: #bbb;
+}
+
+.label-api {
+    background-color: #bbb;
+}
+
+.label-bootstrap {
+    background-color: #bbb;
+}
+
+.label-cpanel {
+    background-color: #bbb;
+}
+
+.label-css, .label-css3 {
+    background-color: #bbb;
+}
+
+.label-git {
+    background-color: #bbb;
+}
+
+.label-html, .label-html5 {
+    background-color: #bbb;
+}
+
+.label-javascript {
+    background-color: #bbb;
+}
+
+.label-jquery {
+    background-color: #bbb;
+}
+
+.label-linux {
+    background-color: #bbb;
+}
+
+.label-mvc-architecture, .label-mvc-organisation {
+    background-color: #bbb;
+}
+
+.label-mysql {
+    background-color: #bbb;
+}
+
+.label-nodejs {
+    background-color: #bbb;
+}
+
+.label-php {
+    background-color: #bbb;
+}
+
+.label-vagrant {
+    background-color: #bbb;
+}
+
+.label-wordpress {
+    background-color: #bbb;
+}
+
+/**************************************** */
+
+#my-resume {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    /*background: url('/images/background-resume.jpg') no-repeat center center;*/
+    background-image: url('/images/background-resume.jpg');
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+}
+
+
+
+/**************************************** */
+
+.flag-au {
+    background-image: url('images/australia-flag.png');
+    width: 50px;
+    height: 50px;
+}
+
+.get-contact {
+    margin-bottom: 10px;
+}
+
+#contact-me {
+    padding-top: 80px;
+}
+
+#contact-me h2 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#contact-me hr.primary {
+    max-width: 50px;
+    border-color: #131A2D;
+    border-width: 3px;
+}
+
+#contact-me p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Merriweather','Helvetica Neue',Arial,sans-serif !important;
+    font-weight: 400;
+}
+
+#contact-me a {
+    color: #131A2D;
+    font-family: 'Merriweather','Helvetica Neue',Arial,sans-serif !important;
+    font-weight: 400;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.contact-icon {
+    margin-bottom: 8px;
+}
+
+.portfolio-social-links hr {
+  border: 1px solid #ddd;
+  border-width: 1px 0 0;
+  height: 0;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icon-color-github i {
+    color: #222222;
+}
+.icon-color-twitter i {
+    color: #55acee;
+}
+.icon-color-linkedin i {
+    color: #1985bc;
+}
+.icon-color-fire i {
+    color: #006400;
+}
+
+.icon-social-top i {
+    /*color: #337ab7;*/
+    /*color: #28c7be;*/
+    /*color: #caa80d;*/
+    color: #d3a307;
+}
+
+.social-links-bottom #links {
+    padding-left: 40px;
+}
+
+.portfolio-social-links #links {
+  font-size: 6em;
+}
+
+.portfolio-social-links .span-social-icon {
+
+}
+
+.portfolio-social-links #links > span {
+  display: inline-block;
+}
+
+.portfolio-social-links #links a {
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.portfolio-social-links #links a:hover {
+  transform: rotate(360deg);
+}
+
+.portfolio-social-links .icon:hover + .text {
+  visibility: visible;
+}
+
+.portfolio-social-links .text {
+  font-size: 22px;
+  visibility: hidden;
+  display: block;
+}
+
+.text-freecodecamp {
+    font-size: 15px !important;
+    line-height: 2.5 !important;
+}
+
+
+/**************************************** */
+
+footer {
+    background-color: #2A2730;
+    color: white;
+    line-height: 100px;
+}
+
+footer p, footer a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav-footer li {
+    margin-left: 10px;
+}
