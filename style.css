@@ -30,7 +30,7 @@ body, h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url('http://www.dtelepathy.com/blog/wp-content/uploads/2015/06/Technique-for-Faster-Web-Development.jpg') no-repeat center center;
+    background: url('/images/welcome.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -377,10 +377,8 @@ p.copyright {
 }
 
 .icon-social-top i {
-    /*color: #337ab7;*/
-    /*color: #28c7be;*/
-    /*color: #caa80d;*/
-    color: #d3a307;
+    /* color: #f1c40f; */
+     color: #d3a307; 
 }
 
 .social-links-bottom #links {
