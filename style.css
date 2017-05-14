@@ -161,7 +161,7 @@ p.copyright {
 
 .skill {
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     background-color: #222222;
     color: white;
 }
@@ -308,10 +308,9 @@ p.copyright {
 
 /**************************************** */
 
-.flag-au {
-    background-image: url('images/australia-flag.png');
-    width: 50px;
-    height: 50px;
+.flag-phone {
+    position: relative;
+    top:-1px;
 }
 
 .get-contact {
@@ -422,6 +421,7 @@ p.copyright {
     font-size: 15px !important;
     line-height: 2.5 !important;
 }
+
 
 
 /**************************************** */
