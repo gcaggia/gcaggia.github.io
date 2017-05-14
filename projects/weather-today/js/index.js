@@ -3,7 +3,7 @@ $(document).ready(main());
 var obj = {};
 
 function getIP(callback) {
-  $.getJSON('http://ipinfo.io', function(data){ 
+  $.getJSON('https://ipinfo.io', function(data){ 
     obj.IP = data;
     if (callback)
       callback();

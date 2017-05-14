@@ -223,6 +223,10 @@ p.copyright {
     border-radius: 8px;
 }
 
+.label-basic {
+    background-color: #bbb;
+}
+
 .label-apache2 {
     background-color: #bbb;
 }
@@ -286,6 +290,32 @@ p.copyright {
 .label-wordpress {
     background-color: #bbb;
 }
+
+.label-laravel {
+    background-color: #bbb;
+}
+
+.label-vuejs {
+    background-color: #bbb;
+}
+
+.label-googlemaps {
+    background-color: #bbb;
+}
+
+.label-amazonec2 {
+    background-color: #bbb;
+}
+
+.label-bootstrap {
+    background-color: #bbb;
+}
+
+.label-htmlcss {
+    background-color: #bbb;
+}
+
+
 
 /**************************************** */
 
