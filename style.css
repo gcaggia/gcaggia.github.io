@@ -24,13 +24,17 @@ body, h1, h2, h3, h4, h5, h6, p {
     text-align: justify;
 }
 
+.navbar-default .navbar-brand {
+    color: #665;
+}
+
 .intro-header {
     padding-top: 50px;
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url('images/welcome.jpg') no-repeat center center;
+    background: url('images/background/welcome-python.jpg') no-repeat center center;
     background-size: cover;
 }
 
