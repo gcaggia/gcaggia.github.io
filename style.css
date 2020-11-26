@@ -152,9 +152,14 @@ p.copyright {
     background-image: url('images/background_presentation.jpg');
 }
 
+#about-me h1 {
+    margin-top: 30px;
+}
+
 .about-description {
     font-weight: 400;
     font-size: 19px;
+    line-height: 1.7;
     margin: 10px 100px;
     text-align: justify;
 }
@@ -414,7 +419,7 @@ p.copyright {
 
 .icon-social-top i {
     /* color: #f1c40f; */
-     color: #d3a307; 
+     color: #e74c3c;
 }
 
 .social-links-bottom #links {
